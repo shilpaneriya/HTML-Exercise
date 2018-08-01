@@ -1,0 +1,253 @@
+
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+}
+
+.wrapper {
+    max-width: 1366px;
+    margin: 0 auto;
+    border-radius: 0;
+    -webkit-box-shadow: 0px 0px 7px rgba(93, 92, 92, 0.5);
+    -moz-box-shadow: 0px 0px 7px rgba(93, 92, 92, 0.5);
+    box-shadow: 0px 0px 7px rgba(93, 92, 92, 0.5);
+}
+
+.container {
+	max-width: 1200px;
+	width: 100%;
+}
+
+.navigation_bar {
+    padding: 10px 0;
+    height: 90px;
+    margin: 0;
+    border: none;
+    border-color: transparent;
+    -webkit-box-shadow: 0px 0px 7px rgba(93, 92, 92, 0.5);
+    -moz-box-shadow: 0px 0px 7px rgba(93, 92, 92, 0.5);
+    box-shadow: 0px 0px 7px rgba(93, 92, 92, 0.5);
+    background-color: #eeeeee;
+}
+
+.right_section {
+    text-align: right;
+    padding: 2px 0;
+}
+
+.logo img {
+    padding: 15px 0;
+}
+
+.shoppingCart_logo {
+    color: #1e2a64;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.shoppingCart_logo img {
+    height: 25px;
+    padding-right: 5px;
+}
+
+.sprungli_logo img {
+    height: 65px;
+    padding-right: 20px;
+}
+
+/* Have Account Section CSS */
+
+#have_account, #my_programs {
+    padding: 30px 0;
+}
+
+.question-block h3 {
+    margin-bottom: 15px;
+}
+
+.login_btn {
+    background-color: #00aeff;
+    padding: 10px 20px;
+    color: #ffffff;
+    font-size: 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 24px 0;
+    text-align: center;
+}
+
+.button-block {
+    text-align: right;
+}
+
+.login_btn:hover, .login_btn:active, .login_btn:focus {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.hr-line { 
+	width:100%; 
+	text-align:center; 
+	border-bottom: 3px solid #eeeeee; 
+	line-height:0.1em; 
+	/*margin:10px 0 20px;*/ 
+} 
+
+.hr-line span {
+    background: #fff;
+    padding: 0px 10px;
+    font-size: 16px;
+    color: #2d2d2d;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+/* My Program CSS */
+
+#my_programs {
+    padding: 30px 0 40px 0;
+    border-bottom: 2px solid #eeeeee;
+}
+
+#my_programs .title {
+    font-size: 30px;
+    font-weight: 300;
+    color: #2d2d2d;
+    margin-bottom: 40px;
+}
+
+.prog-title {
+    color: #2d2d2d;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    margin-bottom: 25px;
+}
+
+.prog-wrapper {
+    border: 2px solid #eeeeee;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.prog-logo {
+    text-align: center;
+    height: 55px;
+    margin: 30px 0 10px 0;
+}
+.prog-logo img {
+    width: 150px;
+}
+.gray-line {
+    height: 2px;
+    background-color: #eeeeee;
+    width: 90%;
+    margin: 0 auto 15px auto;
+}
+
+.prog-text {
+    font-size: 16px;
+    font-weight: 400;
+    color: #2d2d2d;
+    margin: 10px 0 15px 0;
+}
+
+.prog-mode {
+    background-color: #eeeeee;
+    padding: 15px 0;
+    margin-bottom: 0;
+}
+.prog-mode-text {
+    color: #1e2a64;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.prog-mode-text span {
+    margin: 0 8px;
+}
+
+#product_section {
+    padding: 40px 0;
+}
+
+.product-image a img {
+    width: 100%;
+}
+.product-image {
+    padding: 15px;
+    border: 1px solid #dcdcdc;
+}
+.product-name {
+    font-size: 15px;
+    font-weight: 600;
+    height: 45px;
+    margin-top: 15px;
+    color: #4c4b4b;
+    padding: 0 10px;
+}
+.product-name span {
+    font-weight: 400;
+    font-size: 14px;
+}
+.price {
+    padding: 0 10px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #000;
+}
+.add_to_cart_btn a {
+    background-color: #00aeff;
+    padding: 10px 20px;
+    color: #ffffff;
+    font-size: 16px;
+    border-radius: 3px;
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    border:1px solid #00aeff;
+}
+
+.view_detail_btn a {
+    background-color: #fff;
+    padding: 10px 20px;
+    color: #333;
+    font-size: 16px;
+    border-radius: 3px;
+    text-decoration: none;
+    display: block;
+    margin-top: 30px;
+    text-align: center;
+    border:1px solid #333;
+}
+.line_through {
+    float: right;
+    text-decoration: line-through;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.hover_content {
+    opacity: 0;
+}
+
+.single-product {
+    padding: 10px;
+}
+.single-product:hover {
+    padding: 10px;
+    -webkit-box-shadow: 0px 0px 7px rgba(93, 92, 92, 0.5);
+    -moz-box-shadow: 0px 0px 7px rgba(93, 92, 92, 0.5);
+    box-shadow: 0px 0px 7px rgba(93, 92, 92, 0.5);
+}
+.single-product:hover .hover_content {
+    opacity: 1;
+    transition: all .5s;
+}
+
+.single-product:hover .price_point {
+    color: #da0640;
+    transition: all .5s;
+}
